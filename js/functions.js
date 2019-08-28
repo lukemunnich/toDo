@@ -15,7 +15,10 @@ $(document).ready(
       $(document).on('click','li', function(){
         $(this).toggleClass('strike');    
       });
-      
+      $(document).on('dblclick','li', function(){
+        $(this).fadeOut('slow');    
+      });
+
       $('input').focus(function() {
         $(this).val('');
       });
