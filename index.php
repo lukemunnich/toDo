@@ -15,12 +15,9 @@
     <title>to do app</title>
 </head>
 <body>
-    
-
-
-    <div class="container">
+<div class="container">
 		<h2>Simple To Do List</h2>
-    <p><em>Click and drag to reorder, double click to cross an item off.</em></p>
+        <p><em>Click item to mark as done, double click to delete</em></p>
        
 		<form name="toDoList">
 			<input type="text" name="ListItem"/>
@@ -29,13 +26,11 @@
 		<div id="button">Add</div>
 		<br/>
 		<ol></ol>
-      
-      
-    
-    </div>
+
+</div>
       
     
-    </div>
+</div>
 
 </body>
 </html>
