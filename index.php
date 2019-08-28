@@ -1,3 +1,7 @@
+
+
+session_start();
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +17,7 @@
    <script src="js/functions.js"></script> 
 
     <title>to do app</title>
-</head>
-<body>
+
 <div class="container">
 		<h2>Simple To Do List</h2>
         <p><em>Click item to mark as done, double click to delete</em></p>
@@ -27,10 +30,10 @@
 		<br/>
 		<ol></ol>
 
+
+</div>  
 </div>
-      
-    
-</div>
+
 
 </body>
 </html>
