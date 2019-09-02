@@ -1,12 +1,14 @@
 <html>
     <head>
-        <title>AngelPrime to-do List</title>
+        <title>lukeMunnich to-do List</title>
 
+<!-- linking jquery and boostrap and caa -->
         <link rel="stylesheet" href="lib/Bootstrap/bootstrap.min.css" />
         <link rel="stylesheet" href="lib/jQuery/jquery.ui.min.css" />
         <link rel="stylesheet" href="css/todo.css" />
     </head>
 
+<!--creating class and id for styling  -->
     <body class="well">
         <div id="container">
 
@@ -14,11 +16,7 @@
 
             <div class="task-list task-container" id="pending">
                 <h3>Pending</h3>
-                <!--<div class="todo-task">
-                    <div class="task-header">Sample Header</div>
-                    <div class="task-date">25/06/1992</div>
-                    <div class="task-description">Lorem Ipsum Dolor Sit Amet</div>
-                </div>-->
+              
             </div>
 
             <div class="task-list task-container" id="inProgress">
@@ -29,6 +27,7 @@
                 <h3>Completed</h3>
             </div>
 
+<!-- creating form -->
             <div class="task-list">
                 <h3>Add a task</h3>
                 <form id="todo-form">
@@ -44,13 +43,16 @@
                     Drag Here to Delete
                 </div>
             </div>
-
             <div style="clear:both;"></div>
+
+         <!-- linking jquery  -->
 	          <script type="text/javascript" src="lib/jQuery/jquery.min.js"></script>
             <script type="text/javascript" src="lib/Bootstrap/bootstrap.min.js"></script>
             <script type="text/javascript" src="lib/jQuery/jquery.ui.min.js"></script>
             <script type="text/javascript" src="js/todo.js"></script>
+           
 
+<!-- javascript for the date picker and the drag function -->
             <script type="text/javascript">
                 $( "#datepicker" ).datepicker();
                 $( "#datepicker" ).datepicker("option", "dateFormat", "dd/mm/yy");
