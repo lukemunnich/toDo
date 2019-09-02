@@ -82,3 +82,18 @@ h3{
     line-height: 75px;
     text-align: center;
 }
+
+/* media queries */
+@media screen and (max-width: 600px) {
+   
+    body{
+        background-color: aqua;
+    }
+    .todo-task{
+        border-radius: 5px;
+        background-color: #fff;
+        width: 230px;
+        margin: 5px;
+        padding: 5px;
+    }
+  }

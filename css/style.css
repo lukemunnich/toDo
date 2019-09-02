@@ -91,3 +91,14 @@ h3{
     line-height: 75px;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(223, 32, 32);
+    }
+
+  #completed{
+      position: fixed;
+      left:20px;
+  }  
+  }

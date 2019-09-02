@@ -84,7 +84,7 @@ session_start();
                      // End Session Super Global
                      ?>
 
-         <!-- linking jquery  -->
+         <!-- linking jquery .imp!only works when placed here -->
 <script type="text/javascript" src="lib/jQuery/jquery.min.js"></script>
 <script type="text/javascript" src="lib/Bootstrap/bootstrap.min.js"></script>
 <script type="text/javascript" src="lib/jQuery/jquery.ui.min.js"></script>
