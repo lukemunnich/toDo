@@ -41,22 +41,6 @@ data = data || {};
             generateElement(params);
         });
 
-        /*generateElement({
-            id: "123",
-            code: "1",
-            title: "asd",
-            date: "22/12/2013",
-            description: "Blah Blah"
-        });*/
-
-        /*removeElement({
-            id: "123",
-            code: "1",
-            title: "asd",
-            date: "22/12/2013",
-            description: "Blah Blah"
-        });*/
-
         // Adding drop function to each category of task
         $.each(codes, function (index, value) {
             $(value).droppable({

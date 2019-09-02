@@ -1,13 +1,14 @@
-/* nanoscrollbar */
+/* scrollbar */
 .nano .pane   { background: #888; }
 .nano .slider { background: #111; }
 
+  /* Override bootstrap properties */
 body {
-    /* Override bootstrap properties */
     background-color: #374a5d !important;
     border: 0 !important;
 }
 
+/* styles main container */
 #container{
     margin: 0 auto;
     width: 1060px;
@@ -16,6 +17,7 @@ body {
     border: 0;
 }
 
+/* styling header */
 #header{
     font-size: 30px;
     text-align: center;
@@ -23,6 +25,7 @@ body {
     color: #fff;
 }
 
+/* styling tasks */
 .task-list{
     width: 250px;
     float: left;
@@ -33,6 +36,7 @@ body {
     padding-bottom: 15px;
 }
 
+/* styling input field */
 .task-list input, .task-list textarea{
     width: 240px;
     margin: 1px 5px;
@@ -42,6 +46,7 @@ body {
     height: 30px;
 }
 
+/* styling button */
 .todo-task{
     border-radius: 5px;
     background-color: #fff;
@@ -50,6 +55,7 @@ body {
     padding: 5px;
 }
 
+/* styling task input */
 .task-list input[type="button"]{
     width: 100px;
     margin: 5px;
@@ -65,14 +71,17 @@ body {
     font-style: italic;
 }
 
+/* styling task description */
 .todo-task > .task-description{
     font-size: smaller;
 }
 
+/* styling second header */
 h3{
     text-align: center;
 }
 
+/* styling deleted div and button */
 #delete-div{
     display: none;
     background-color: #fff;
