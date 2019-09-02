@@ -1,4 +1,4 @@
-# toDoJody 1:57 PM
+# toDo luke
 # to do app
 simple app for keeping track of you daily task
 ## Getting Started
@@ -7,12 +7,10 @@ you need to install wamp and copy the files to the www folder
 wamp/xaamp/
 google chrome
 ### Installing
-A step by step series of examples that tell you how to get a development env running
-Say what the step will be
-Give the example
-And repeat
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+install wamp 
+install google chrome
+copy index.php to wamp
+run programme.
 ## Running the tests
 Explain how to run the automated tests for this system
 ### Break down into end to end tests
