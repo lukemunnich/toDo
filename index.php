@@ -1,3 +1,7 @@
+
+<?php
+session_start();
+?>
 <html>
     <head>
         <title>lukeMunnich to-do List</title>
@@ -9,6 +13,7 @@
     </head>
 
 <!--creating class and id for styling  -->
+
     <body class="well">
         <div id="container">
 
@@ -28,9 +33,11 @@
             </div>
 
 <!-- creating form -->
+
+
             <div class="task-list">
                 <h3>Add a task</h3>
-                <form id="todo-form">
+                <form method="post" action="index.php" id="todo-form">
                     <input type="text" placeholder="Title" />
                     <textarea placeholder="Description"></textarea>
                     <input type="text" id="datepicker" placeholder="Due Date (dd/mm/yyyy)" />
@@ -44,6 +51,7 @@
                 </div>
             </div>
             <div style="clear:both;"></div>
+
 
          <!-- linking jquery  -->
 	          <script type="text/javascript" src="lib/jQuery/jquery.min.js"></script>
