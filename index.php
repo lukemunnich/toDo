@@ -66,7 +66,6 @@ session_start();
         </div>
         </div>
         <div style="clear:both;"></div>
-
     
 
          <!-- linking jquery .imp!only works when placed here -->
