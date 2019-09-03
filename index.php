@@ -48,6 +48,7 @@ session_start();
                 <h3>Completed</h3>
         </div>
 
+
 <!-- !-- creating form --> -->
         <div class="task-list">
             <h3>Add a task</h3>
@@ -66,29 +67,13 @@ session_start();
         </div>
         <div style="clear:both;"></div>
 
-        <?php
-                     // Session Super Global
-                         if(!empty($_SESSION['todo'])){
-                             // Current Date Initialization
-                             $date = date('Y-m-d');
-                             // ForEach For Loop Starts
-                             foreach($_SESSION['todo'] as $key => $value){
-                                 echo '<div class="alert alert-light border shadow-sm pb-4">';
-                                 echo "<li>".$value['todo_item']." ".$date.
-                                 '<a class="btn btn-danger float-right" href="index.php?to='. $key.'&action=delete">Delete</a>'."</li><br>";
-                                 echo '</div>';
-                                 // End Of Displaying Items
-                             }
-                             // End ForEach For Loop
-                         }
-                     // End Session Super Global
-                     ?>
+    
 
          <!-- linking jquery .imp!only works when placed here -->
 <script type="text/javascript" src="lib/jQuery/jquery.min.js"></script>
 <script type="text/javascript" src="lib/Bootstrap/bootstrap.min.js"></script>
 <script type="text/javascript" src="lib/jQuery/jquery.ui.min.js"></script>
- <script type="text/javascript" src="js/todo.js"></script>
+<script type="text/javascript" src="js/todo.js"></script>
            
 
 <!-- javascript for the date picker and the drag function -->
